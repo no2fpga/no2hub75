@@ -1,4 +1,10 @@
 #!/usr/bin/env python3
+#
+# Computes gamma LUT
+#
+# Copyright (C) 2019-2020 Sylvain Munaut
+# SPDX-License-Identifier: MIT
+#
 
 import math
 

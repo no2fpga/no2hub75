@@ -1,4 +1,11 @@
 #!/usr/bin/env python3
+#
+# Utility to estimate panel refresh rate given some
+# BCM parameters.
+#
+# Copyright (C) 2019-2020 Sylvain Munaut
+# SPDX-License-Identifier: MIT
+#
 
 import argparse
 
