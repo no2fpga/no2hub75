@@ -1,5 +1,5 @@
-HUB75 LED Panel driver IP core
-==============================
+Nitro HUB75 LED panel driver FPGA core
+======================================
 
 This core allows to drive LED panel chains using the 'classic' HUB75
 protocol. The default top level contains a frame buffer but it's also
@@ -18,5 +18,21 @@ parameters given to the cores.
 See the doc/ directory for more information about the internals of this
 core.
 
-This core is licensed under the GNU Lesser General Public v3
-(see LICENSE.lgpl3)
+
+Limitations
+-----------
+
+The current code in this repo targets the iCE40 only and uses some direct
+`SB_IO` and `SB_RAM_4K` instances. I have run a modified version on ECP5 but
+haven't yet merged the changes here. If you're interested in using this core
+on another architecture, don't hesitate to contact me, the changes are fairly
+minor.
+
+
+License
+-------
+
+The cores in this repository are licensed under the
+"CERN Open Hardware Licence Version 2 - Weakly Reciprocal" license.
+
+See LICENSE file for full text.
