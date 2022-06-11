@@ -26,6 +26,8 @@ module hub75_linebuffer #(
 	input  wire clk
 );
 	integer i;
+
+	(* no_rw_check *)
 	reg [(N_WORDS*WORD_WIDTH)-1:0] ram [(1<<ADDR_WIDTH)-1:0];
 
 `ifdef SIM
